@@ -1,0 +1,49 @@
+body{background-color: rgb(209, 209, 1);}
+div{background-color: rgb(240, 240, 104);
+border: 2 solid black;
+padding: 15;
+width: 60%;
+margin: auto;}
+fieldset{ margin-bottom: 20px;}
+legend{ background-color: rgb(178, 253, 228);
+padding: 5px;
+border-radius: 20px;
+font-weight: bold ;}
+img{border-radius: 200px;
+margin-bottom: 20px;
+margin-left: 370px;
+margin-right: auto;
+margin-top:  50px;}
+span{font-weight: bolder;}
+h1 { text-align: center; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; }
+p { margin-left: 00px;}
+.iconos{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    width: 950px;
+    height: 100px;
+    background-color: rgb(209, 209, 1);
+}
+.iconos i{font-size: 100px ;
+}
+.mail{color: black;
+}
+.whatsapp{color: green;
+}
+.instagram{color: blueviolet;
+}
+.facebook{color: blue;
+}
+.iconos a:hover{
+ transform: scale(1.9);
+ transition: all ease 500ms;
+
+}
+.telefono {visibility: hidden;
+padding-left: 0%;}
+   
+
+.ver { visibility: visible;}
